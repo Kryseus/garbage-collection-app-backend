@@ -7,6 +7,6 @@ const garbageRouter = Router();
 
 garbageRouter.get("/", getAll);
 garbageRouter.get("/streets", getListOfStreets);
-garbageRouter.get("/:id", getSingle);
+garbageRouter.get("/streets/:id/schedule", getSingle);
 
 export default garbageRouter;
